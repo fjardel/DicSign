@@ -1,0 +1,569 @@
+
+
+#formulario{
+   
+    
+}
+
+body{
+    background-color: white;
+     
+     
+}
+
+div#instrucao ul{ 
+    text-align: justify;
+    padding-left: 40px;
+}
+div#instrucao ul li{
+    list-style: disc;
+}
+/* outros estilos próprios
+------------------------------------------------*/
+header{
+    display: block;
+    width: 100%;
+}
+
+#logobar{
+    /*border: 1px solid black;*/
+    width: 100%;
+    height: 70px;
+    background-color: #33C3F0;
+/*
+    background: #87e0fd; 
+    background: -moz-linear-gradient(left,  #87e0fd 0%, #53cbf1 40%, #05abe0 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0)); 
+    background: -webkit-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+    background: -o-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+    background: -ms-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+    background: linear-gradient(to right,  #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); 
+*/
+}
+div#logotipo{
+    margin-left: 10px;
+     margin-top: 0px;
+     margin-right: 0px;
+    width: 100%;
+    padding: 0;
+}
+button#btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #bbe1fa);
+    background-image: -moz-linear-gradient(top, #ffffff, #bbe1fa);
+    background-image: -ms-linear-gradient(top, #ffffff, #bbe1fa);
+    background-image: -o-linear-gradient(top, #ffffff, #bbe1fa);
+    background-image: linear-gradient(to bottom, #ffffff, #bbe1fa);
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 16px;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px #ffffff;
+    -webkit-box-shadow: 0px 3px 8px #6b6b6b;
+    -moz-box-shadow: 0px 3px 8px #6b6b6b;
+    box-shadow: 0px 3px 8px #6b6b6b;
+    color: #000082;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+button#btn:hover {
+    background: #bbe1fa;
+    background-image: -webkit-linear-gradient(top, #bbe1fa, #ffffff);
+    background-image: -moz-linear-gradient(top, #bbe1fa, #ffffff);
+    background-image: -ms-linear-gradient(top, #bbe1fa, #ffffff);
+    background-image: -o-linear-gradient(top, #bbe1fa, #ffffff);
+    background-image: linear-gradient(to bottom, #bbe1fa, #ffffff);
+    text-decoration: none;
+}
+img{
+    margin-top: 4px; 
+    /*border: 1px solid black;*/
+}
+#appname{
+    background-color: #fafafa;
+
+
+    /*
+background: rgb(255,255,255); 
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 30%, rgba(225,225,225,1) 69%, rgba(246,246,246,1) 100%); 
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(30%,rgba(241,241,241,1)), color-stop(69%,rgba(245, 245, 245, 1)), color-stop(100%,rgba(246,246,246,1))); 
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 30%,rgba(245, 245, 245, 1) 69%,rgba(246,246,246,1) 100%);
+background: -o-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 30%,rgba(245, 245, 245, 1) 69%,rgba(246,246,246,1) 100%); 
+background: -ms-linear-gradient(left,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 30%,rgba(245, 245, 245, 1) 69%,rgba(246,246,246,1) 100%);
+background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 30%,rgba(245, 245, 245, 1) 69%,rgba(246,246,246,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); 
+*/
+    width: 100%;
+    height: 50px;
+    
+    font-size: xx-large;
+    margin-bottom: 23px;
+    margin-right: 0px;
+}
+#appname nav{
+    float: left;
+    margin-left: 7px;
+    
+}
+#appname nav a:not(:last-child){
+    border-right: 1px solid #20B6E6;
+}
+#appname nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    
+    padding: 0 10px 0 0px;
+    font-size: 17px;
+    
+}
+#appname h6{
+    float: left;
+    margin-right: 7px;
+    padding: 6px 0 0 14px;
+    width: auto;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+#appname h5.adm{
+    float: right;
+    margin-right: 7px;
+    padding: 12px 0 0 8px;
+    width: auto;
+    
+}
+#bandeiras{
+    float: right;
+    margin-right: 8px;
+    margin-top: -5px;
+}
+#bandeiras a{
+    margin-top: 2px;
+}
+
+section{
+    position: relative;
+    min-height: 300px;
+    background-color: white;
+}
+section.adm{
+    position: relative;
+    min-height: 0px;
+    background-color: white;
+}
+
+div#traducao, div#resultado{    
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 202px 85px;
+    
+    
+    min-height: 275px;
+    height: auto;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+}
+a.excluirtudoimg{
+    display: block;
+   /* background-image: url(../img/icons/delete.png);*/
+    background-position-x: 14px;
+    background-position-y: 5px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 49px;
+    font-size: x-large;
+    color: white;
+    background-color: #33C3F0;
+    padding: 7px 0px 0px 10px;
+}
+a.excluirtudoimg:hover{
+    /*border: 1px solid red;
+    background-image: url(../img/icons/excluir.png);*/
+    color: red;
+}
+
+a.excluirimg{
+    display: block;
+    background-image: url(../img/icons/delete.png);
+    background-position-x: 14px;
+    background-position-y: 3px;
+    background-repeat: no-repeat;
+    width: 53px;
+    height: 10px;
+    padding: 30px 0px 0px 10px;
+    
+}
+a.excluirimg:hover{
+    /*border: 1px solid red;*/
+    background-image: url(../img/icons/excluir.png);
+    
+}
+
+div#signslide {    
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: 202px 85px;
+    
+    width: 200px;
+    height: 223px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+}
+textarea{
+    height: 275px;
+    min-height: 180px;
+    resize: none;
+    font-size: 20px;
+    
+}
+
+textarea#conceito{
+    height: 105px;
+}
+
+textarea.adm{
+    height: auto;
+    min-height: 40px;
+    font-size: initial;
+    padding: 10px 0px 0px 13px;
+    
+    
+}
+
+a#ouvir{
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(/img/icons/ouvir_1.png);
+    background-size: 23px 23px;
+    
+    margin: 0;
+    margin-left: 10px;
+    border: 0px solid black;
+    display: block;
+    
+    width: 23px;
+    height: 23px;
+    
+    
+}
+
+input#search{
+    height: 50px;
+    font-size: 18px;
+}
+
+input.button-primary.adm{
+    height: 50px;
+    /*font-size: medium;*/
+}
+
+.ico{
+    /*width: 100px;*/
+    margin-top: 12px;
+}
+a#falar{
+    float: left;
+    background-repeat: no-repeat;
+    background-image: url(/img/icons/microphone.png);
+    background-size: 23px 23px;
+    
+    margin: 0;
+    margin-left: 10px;
+    border: 0px solid black;
+    display: block;
+    
+    width: 23px;
+    height: 23px;
+}
+#dialog-form, #dialog-message{
+	display: none;
+}
+
+footer{
+    
+    height: auto;
+    background-color: #33C3F0;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    border-top: 1px solid #e5e5e5;
+    
+    z-index: 10;
+   
+}
+footer.adm{
+    height: auto;
+    background-color: #bce0fa;
+    
+    position: relative;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 300px;
+}
+footer div#info{
+   
+    background-color: #33C3F0;
+    /*
+    background: -moz-linear-gradient(left,  #87e0fd 0%, #53cbf1 40%, #A5DDEF 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#A5DDEF ));
+    background: -webkit-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#A5DDEF  100%);
+    background: -o-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#A5DDEF  100%); 
+    background: -ms-linear-gradient(left,  #87e0fd 0%,#53cbf1 40%,#A5DDEF  100%); 
+    background: linear-gradient(to right,  #87e0fd 0%,#53cbf1 40%,#A5DDEF  100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); 
+*/
+    
+    height: 59px;
+    padding: 5px 0px 0 10px;
+    font-size: xx-large;  
+    
+}
+*{
+   /* border: 1px solid #0a0a0a;*/
+    
+}
+div#info div {
+    float: left;
+    margin-left: 4%;
+    height: auto;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+div#info div.menubaixo{
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 50%;
+    font-weight: bold;
+    
+}
+div#info div.menubaixo a:hover{
+    color: blue;
+}
+div#info div a{
+    display: block;
+    width: auto;
+    height: auto;
+    float: left;
+    color: black;
+    text-decoration: none;
+   
+}
+div#info div#logoinfer {
+    float: right;
+    margin-right:5px;
+}
+div#info div#logoinfer a{
+    margin-left: 8px;
+    
+    
+}
+
+div#info div.espaco{
+        width: auto;
+    margin-top: 17px;
+    text-align: center;
+    margin-left: 17%;
+}
+
+
+/*
+página sobre
+
+*/
+
+.img-circle {
+    border-radius: 50%;
+}
+article.desenvolvedores{
+    text-align: center;
+}
+article.desenvolvedores h5{
+    font-weight: bold;
+    color: #0190EE;
+}
+article.desenvolvedores p, h5, figure{
+    margin-bottom: 2px; 
+}
+article.desenvolvedores figure{
+    height: 138px;
+}
+article.desenvolvedores span{
+    font-size: smaller;
+}
+a.botao {
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: bold;
+    text-align: center !important;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #CCC;
+    white-space: nowrap;
+    padding: 5px 12px !important;
+    font-size: 14px;
+    line-height: 1.42857 !important;
+    border-radius: 5px;
+    -moz-user-select: none;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+.botao:hover {
+    color: white;
+    background-color: #1E4697;
+    text-decoration-line: none;
+    border: 1px solid transparent;
+}
+
+.justext{
+    text-align: justify;
+}
+.centertext{
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    
+    header{
+        display: block;
+        width: auto;
+    }
+
+    #logobar{
+        
+        width: 100%;
+        height: 70px;
+        background-color: #bce0fa;
+
+    }
+    div#logotipo{
+        margin-left: 0px;
+         margin-top: 0px;
+         margin-right: 0px;
+        width: 100%;
+        padding: 0;
+    }
+    div#logotipo img{
+        margin: 4px; 
+    }
+    #appname{
+        background-color: #fafafa;
+        
+        width: 100%;
+        height: 50px;
+
+        font-size: xx-large;
+        margin-bottom: 23px;
+        margin: 0px auto;
+    }
+    #appname h5{
+        padding: 5px 0 0 8px;
+        font-weight: bold;
+        
+    }
+    
+    section{
+        position: relative;
+        min-height: 108%;
+        background-color: white;
+    }
+
+    
+    
+    footer{
+        height: auto;
+        position: relative;
+
+        line-height: 27px;
+        border-top: 1px solid #e5e5e5;
+        background-color: #f1f1f1;
+    }
+    
+    div#info div{
+        float: left;
+    }
+
+    footer div#info{
+        background-color: #bce0fa;
+        height: 150px;
+        padding: 10px 0px 0 9%;
+        font-size: xx-large;  
+    }
+    
+    
+    div#info div.menubaixo {
+        display: block;
+        text-align: center;
+        
+        
+        margin-left: 0px;
+        height: auto;
+        font-size: 14px;
+        color: black;
+        text-decoration: none;
+        width: 45%;
+        margin: 0 0 0 0%;
+        margin-top: 18px;
+        float: left;
+
+    }
+
+    div#info div.menubaixo a:hover{
+        background-color: white;
+    }
+    div#info div.menubaixo a{
+        background-color: #aec6d8;
+        display: block;
+        height: auto;
+        width: 95%;
+        text-align: center;
+        clear: both;
+        
+        text-decoration: none;
+    }
+    div#info div#logoinfer {
+        margin-top: 15px;
+        width: 90%;
+        /*border: 1px solid black;*/
+        margin-left: 0px;
+        text-align: center;
+        padding-right:  0;
+    }
+    div#info div#logoinfer a{
+        margin-left: 3%;
+        float: left;
+        
+
+    }
+    div#info div#logoinfer a img{
+        text-align: center;
+        width: 115px;
+        height: 50px;
+    }
+    
+    div#info div.espaco{
+        display: none;
+    }
+
+
+}

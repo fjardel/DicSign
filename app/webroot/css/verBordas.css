@@ -1,0 +1,22 @@
+div{
+    border: 1px solid #0a0a0a;
+}
+
+a{
+    border: 1px solid yellow;
+}
+
+
+
+header{
+    border: 1px solid tomato;
+}
+
+
+section{
+    border: 1px solid green;
+}
+
+footer{
+    border: 1px solid blue;
+}

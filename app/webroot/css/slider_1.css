@@ -1,0 +1,161 @@
+/* ==========================================================================
+		Slider core styles
+===========================================================================*/
+div#traducao *,
+div#traducao *:before,
+div#traducao *:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div#traducao .slider-container {
+  position: relative;
+
+  overflow: hidden;
+
+  width: 100%;
+  margin: 0 auto;
+}
+
+div#traducao .slider {
+  position: relative;
+
+  width: 9999px;
+}
+div#traducao .slider:before,
+div#traducao .slider:after {
+  display: table;
+
+  content: ' ';
+}
+div#traducao .slider:after {
+  clear: both;
+}
+div#traducao .slider div {
+  position: relative;
+    height: 220px;
+  float: left;
+
+  margin: 0;
+  padding: 0;
+}
+div#traducao .slider div img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+}
+div#traducao .act,
+div#traducao #prev > span,
+div#traducao #next > span,
+div#traducao #slider-nav > a {
+  background: url('/img/arrows.png') no-repeat;
+  
+}
+div#traducao #next > span,
+div#traducao #prev > span {
+  display: block;
+
+  width: 16px;
+  height: 24px;
+}
+/* Arrows */
+div#traducao #next > span {
+  background-position: -20px 0;
+}
+div#traducao #prev > span {
+  background-position: 0 0;
+}
+div#traducao #next,
+div#traducao #prev {
+  position: absolute;
+  top: 12%;
+
+  margin-top: -20px;
+  padding: 5px 5px;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  border-radius: 5px;
+  background: rgba(91, 208, 208, 0.39);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+       -o-user-select: none;
+}
+div#traducao #prev {
+  left: 0px;
+}
+div#traducao #next {
+  right: 111px;
+}
+div#traducao .caption {
+  position: absolute;
+  bottom: 0;
+
+  display: block;
+
+  width: 100%;
+  padding: 0 10px 30px;
+
+  color: #fff;
+  background: rgba(0, 0, 0, .39);
+
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#99000000', endColorstr='#99000000'); /* ie8 */
+}
+div#traducao .caption a {
+  display: block;
+
+  color: #fff;
+}
+div#traducao .slider-nav {
+  line-height: 30px;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0;
+
+  text-align: center;
+  cursor: pointer;
+  /*background: #323232;*/
+  /*opacity: .9;*/
+
+  filter: alpha(opacity=90); /* ie8 */
+}
+div#traducao .slider-nav a {
+  display: inline-block;
+
+  width: 12px;
+  height: 12px;
+  margin: 0 3px;
+
+  -webkit-transition: background .5s ease;
+     -moz-transition: background .5s ease;
+       -o-transition: background .5s ease;
+          transition: background .5s ease;
+
+  border: 2px solid rgba(91, 208, 208, 0.39);
+  border-radius: 50%;
+  background: transparent;
+}
+
+div#traducao .slider-nav .active {
+  width: 12px;
+  height: 12px;
+
+  background: rgba(91, 208, 208, 0.39);
+}
+@media (max-width: 580px) {
+  div#traducao .caption {
+    display: none;
+  }
+}
